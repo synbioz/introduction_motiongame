@@ -17,7 +17,7 @@ class SurvivorScene < MG::Scene
 
   def add_survivors
 
-    ["Martin", "Nico", "Victor", "Jon", "Numa", "Clement", "Theo", "Cedric"].each_with_index do |name, index|
+    ["Martin", "Nico", "Victor", "Jon", "Numa", "Clement", "Theo", "Cedric", "Colas", "François"].each_with_index do |name, index|
 
       button = MG::Button.new("#{name}")
       button.font_size = 35
